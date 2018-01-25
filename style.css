@@ -1,0 +1,16 @@
+body{
+    background-image: url("https://na.leagueoflegends.com/sites/default/files/upload/art/akali_vs_baron_3.jpg");
+}
+header{
+    margin-bottom: 2rem;
+}
+footer{
+    background-color: black;
+    min-height: 50px;
+    text-align: center;
+}
+.painel{
+    background-color: rgb(202, 202, 202);
+    border: 2px solid black;
+    box-shadow: -5px 1px 10px #000000;
+}
