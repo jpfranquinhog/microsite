@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>Document</title>
 </head>
-<body>
+<body class="index">
     <header>
         <div>
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -20,16 +20,16 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="galary">galary</a>
+                        <a class="nav-link" href="gallery.html">gallery</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         about
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">news</a>
-                        <a class="dropdown-item" href="#">basic</a>
-                        <a class="dropdown-item" href="#">advanced</a>
+                        <a class="dropdown-item" href="news.html">news</a>
+                        <a class="dropdown-item" href="basic.html">basic</a>
+                        <a class="dropdown-item" href="advanced.html">advanced</a>
                         </div>
                     </li>
                     </ul>
@@ -65,18 +65,30 @@
                 </div>
             </div>
         </div>
-        <h1 style="text-align:center; color:white;">News</h1>
+        <div class="row justify-content-md-center" style="margin-top:1rem;">
+            <div class="col-md-2">
+                <h1 style="text-align:center; color:black; background-color:white;">News</h1>
+            </div>
+        </div>
+        
         <div class="row justify-content-md-around">
             <div class="col-md-3 painel">
                 <img width="100%" height="auto" src="https://2.bp.blogspot.com/-JRw0X2njxKY/Wl-skoqbrqI/AAAAAAAA3Gg/nFHQeVigILk3N9F3m5_Lf--kDv0__QPBQCLcBGAs/s1600/79010.jpg" alt="">
                 <hr>
                 <h5>Artic ops gragas</h5>
+                <p>Take on the tundra.</p>
             </div>
             <div class="col-md-3 painel">
-                <h1>teste</h1> 
+                <img width="100%" height="auto" src="https://am-a.akamaihd.net/image?resize=320:&quality=90&f=http://euw.leagueoflegends.com/sites/default/files/styles/wide_xlarge/public/upload/swain_insights_header.jpg" alt="">
+                <hr>
+                <h5>Champion Insights: Swain</h5>
+                <p>The Noxian Grand General.</p> 
             </div>
             <div class="col-md-3 painel">
-                <h1>teste</h1> 
+                <img width="100%" height="auto" src="https://am-a.akamaihd.net/image?resize=320:&quality=90&f=http://euw.leagueoflegends.com/sites/default/files/styles/wide_xlarge/public/upload/banner_45.jpg" alt="">
+                <hr>
+                <h5>Ask Riot: Honor Rewards</h5>
+                <p>Rewards for reaching honor checkpoints, Gnar’s spoken language, and Volibear.</p> 
             </div>
         </div>
     </div>
